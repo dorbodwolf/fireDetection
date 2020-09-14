@@ -1,0 +1,6 @@
+1）安装wsl
+2）安装ubuntu18.04分发版
+3）apt安装gcc/g++ 
+4）apt安装make  pkg-config libssl-dev
+5）安装axel from release tarball
+注意： 使用--without-ssl flag来configure后build的axel下载时候报错（无法解析url）

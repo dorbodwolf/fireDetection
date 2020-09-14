@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import sys
+from time import sleep
+v=sys.argv[1]
+u=v[-1]
+if u=='m':
+  sleep(int(v[:-1])*60)
+elif u=='h':
+  sleep(int(v[:-1])*3600)
+elif u=='d':
+  sleep(int(v[:-1])*86400)
+elif u=='s':
+  sleep(int(v[:-1]))
+else:
+  sleep(int(v))
